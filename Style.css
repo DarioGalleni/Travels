@@ -1,0 +1,173 @@
+body
+{
+background-image: radial-gradient(circle, #2572e5, #9159d0, #c536a9, #de0476, #e0123f);
+}
+h1
+{
+text-align: center;
+color: blue;
+}
+nav
+{
+  background: linear-gradient(90deg, blue, cyan);
+display: flex;
+justify-content: space-around;
+height: 90px;
+width: 100%;
+border-radius: 10px;
+margin: 25px 0px;
+}
+.container
+{
+  display: flex;
+  gap: 100px;
+  align-items: center;
+  align-items: flex-start;
+}
+.card
+{
+
+width: 33%;
+text-align: center;
+
+
+}
+
+
+img
+{
+  width: 100%;
+  border-radius: 10px;
+box-shadow: 10px 10px 5px 9px rgba(12,212,8,0.36);
+
+}
+.travels
+{
+  padding: 5px 5px;
+  text-align: center;
+  color: white;
+  font-size: 1.4em;
+  height: fit-content;
+  
+}
+
+a
+{
+  text-align: center;
+  color: white;
+  font-size: 1.4em;
+}
+
+
+
+#islanda
+{
+margin-top: 45px;
+}
+
+
+
+
+.link
+{
+
+  margin: 40px;
+
+
+
+
+
+}
+.link span{
+  margin-right: 25px;
+  text-align: center;
+  color: blue;
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px 10px;
+}
+
+.menu
+{
+margin: 40px;
+
+
+
+}
+
+
+
+@media (max-width: 615px){
+ 
+  .container
+{
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  
+}
+.card
+{
+
+width: 85%;
+text-align: center;
+/* border: 10px solid green; */
+display: flex;
+flex-direction: column;
+/* margin: 0px 15px; */
+
+
+}
+.travels
+{
+  
+  padding: 5px 5px;
+  text-align: center;
+  color: white;
+  font-size: 1.4em;
+  
+}
+a
+{
+  height: fit-content;
+  position: relative;
+}
+.link
+{
+  display:flex;
+  flex-direction: row;
+  margin: 20px 0px;
+}
+
+.link span
+{
+  margin-right: 5px;
+  text-align: center;
+  color: blue;
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px 10px;
+  
+}
+nav
+{
+background: linear-gradient(90deg, blue, cyan);
+display: flex;
+justify-content: space-around;
+height: 90px;
+border-radius: 10px;
+position: sticky;
+  top: 0;
+  z-index: 99;
+
+
+
+}
+
+body
+{
+  border: 2px solid green;
+  width: 530px;
+}
+ }
+  

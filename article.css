@@ -1,0 +1,57 @@
+*
+{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    
+}
+body
+{
+    background-image: radial-gradient(circle, #2572e5, #9159d0, #c536a9, #de0476, #e0123f);
+}
+
+
+
+p, ul
+{
+    color: blue;
+    padding: 25px;
+    list-style: none;
+    color: white;
+    font-size: 1.4em;
+}
+
+img
+{
+    
+    width: 75%;
+    height: 75%;
+    padding: 10px;
+    
+}
+.img, video
+{
+    background: rgb(70,237,13);
+    background: linear-gradient(328deg, rgba(70,237,13,1) 27%, rgba(185,100,25,1) 79%);
+}
+@media (max-width: 615px)
+{
+    img, video
+{
+    width: 95%;
+    height: 95%
+}
+
+nav
+{
+background: linear-gradient(90deg, blue, cyan);
+display: flex;
+justify-content: space-around;
+height: 90px;
+border-radius: 10px;
+position: sticky;
+  top: 0;
+  z-index: 99;
+
+
+
+}}
